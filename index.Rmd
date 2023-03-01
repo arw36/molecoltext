@@ -106,9 +106,10 @@ miss <- pckgs[!pckgs %in% installed.packages()]
 #install missing packages
 if(length(miss)) install.packages(miss, dependencies = TRUE)
 # going to try shiny_popgen but not sure how to include in Rmd yet...
-
-
-
+library(tidyverse)
+library(shiny)
+library(wesanderson)
+library(devtools)
 ```
 
 ## R Markdown and Shiny 

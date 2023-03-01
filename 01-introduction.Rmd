@@ -1,4 +1,4 @@
-# What is Molecular Ecology? {#intro}
+## 1.1 What is Molecular Ecology?
 
 The phrase 'molecular ecology' is nothing new; it is in many ways synonymous with 'ecological genetics' as first applied by pioneers like Dobzhansky, Ford, and others (en.wikipedia.org/wiki/Molecular_ecology). Maybe the question of terminology comes down to people *who identify as geneticists but want to solve ecological concerns* (Phil Hedrick and his work on Florida panthers in 1995? I've not met him to verify how he identifies as a scientist), or people *who identify as ecologists but recognize how to use genomic data as a means to greater understanding* (can't help my bias, I think of Rick Grosberg doing a number of deep explorations into behavioral ecology via understanding genome-wide kinship, see Fig 1.1). The journal ***Molecular Ecology*** (https://onlinelibrary.wiley.com/journal/1365294x) began in 1991; the field is not new, but the attention given to it from a broader spectrum of scientists seems to be. Before giving an overview of what may be included in this topic, it is probably first important to acknowledge that there are "molecular" approaches to addressing ecological questions that are often *not* included in this field.
 
@@ -62,6 +62,3 @@ Hahn, M.W. 2019.
 Hedrick, P.W. 1995.
 
 Templeton, A.R. (NCA era)
-
-____________________________________________________________________________________________________
-

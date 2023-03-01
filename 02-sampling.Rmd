@@ -1,4 +1,12 @@
-# Our sampling effort
+# 2. Sampling the 'simplest' genomic data {#Ch2}
+
+I'm going to start this text in a very different place than I've started teaching this class before; I have tended to start at the beginning (temporally) and work through the history to reach the present. My efforts at re-organizing my class in 2020 led me to see this as a funny choice. For one, it means we may spend some time talking about methods that are currently D.O.A., even if we learned a lot from them at the time. At this point, there is simply no reason for me to re-hash AFLP markers (I won't even define the acronym). Even the most in-vogue methods of `r format(Sys.time(), format="%Y")` will not be as exciting in 5 years. But our efforts to learn this material should be generic to the specific means of obtaining data, anyway. 
+
+Additionally, I've recognized that some applications of molecular data have been treated as distinct, and separated in other texts or in previous versions of my class, even though their basic methodology aligns pretty clearly with understanding some simple basics about DNA sequence data and how it evolves within and among populations of biodiversity. I hope that is clear from this first data-focused chapter, which itself raises some questions about how we observe and quantify patterns of diversity in nature. 
+
+![**Fig.2.1 - 9 gorgeous orange quadrats, photo credit J. Wares but quadrats and note thanks to Dr. Marjorie Wonham, I believe. **](MEImages/marsquadrats.jpg)
+
+## 2.1. Our sampling effort
 
 If you aren't familiar with a *quadrat*, the photo above (Figure 2.1) includes "9 gorgeous orange quadrats" and you may quickly deduce that these are nothing more than PVC squares with grids installed using heavy fishing line, and the whole thing spray painted orange so they can be easily found in an intertidal marine habitat with sprawling macroalgae and dark rock coves studded with limpets. A *quadrat* is a means to sample spatial diversity that is commonly used by ecologists to estimate the diversity of a larger spatial domain, with the scale varying depending on the system one is looking at, the evenness in that system, and the type of diversity to be counted (and thus extrapolated to say something about the whole ecosystem). 
 
@@ -125,7 +133,8 @@ The sequence data shown earlier from the barnacle *C. fragilis* are a good examp
 
 ![**Fig.2.5a. A gene tree representation of the sequence similarity among mitochondrial sequences sampled from the barnacle Chthamalus fragilis on the east coast of North America.**](MEImages/fig-1-1x-2.jpg) 
 
-![**Fig.2.5b. Spatial distribution of distinct phylogenetic clades shown in Fig.2.5a.**](MEImages/fig-3-1x-3.jpg) 
+![**Fig.2.5b. Spatial distribution of distinct phylogenetic clades shown in Fig.2.5a.**](MEImages/fig-3-1x-3.jpg)  
+
 
 This gene tree pattern reflects the overall similarity of sequence, though the models for inferring these relationships can be mathematically complex in trying to estimate actual mutational difference among sequences. The gene tree raises many questions, many of which will be addressed further as we gain skills in exploring the variation among sequences under expectations of single, randomly-mating populations in later chapters. However, by plotting WHERE each sequence was found you can start to assess that the diversity is not randomly distributed - the 'red' type of diversity is only found in the northern part of the range (Fig 2.5b). This appears to be an example where some diversity is more likely to be found in certain parts of the distributional (environmental) range of this species - suggesting variation in environmental tolerances or performance. To quantify this variation requires additional approaches, and to explore this hypothesis of local adaptation will require additional experiments.
 
@@ -147,6 +156,7 @@ Anyway, plot your own "barcode gap" histogram and ask how well this model of int
 In class, we will also take some class time to discuss the 'reverse ecology' approach mentioned in e.g. Marmeisse et al (2013), the overall consideration of how molecular ecology fits into natural history as discussed in the Travis 2020 essay, and discuss what spatial variation in genomic diversity means for the function, eco-physiology, and other types of variation in a species that may respond to a change in the environment. 
 
 ![**Fig.2.6 - A row of *C. fragilis* settled on a stem of the cordgrass *Spartina alterniflora*. Photo by Y. Zhang, GCE-LTER.**](MEImages/Cfrag.jpg)
+
 
 *Resources cited in this section*
 Brown, A. et al (2019).
@@ -179,6 +189,7 @@ The *targeted* data rely on prior knowledge about a gene region and its utility 
 
 ![**Fig.B1 - From https://www.illumina.com/science/technology/next-generation-sequencing/ngs-vs-sanger-sequencing.html, a rough guideline to the benefit of massively parallel "non-Sanger" seqeuncing as the number of focal loci increases.**](MEImages/cost-effectiveness-of-targeted-ngs.jpg)
 
+
 One type of *targeted* loci that can be analyzed efficiently with electrophoresis, separating fragments by their *size* rather than their actual sequence, include microsatellite markers or "simple sequence repeats" (SSRs). These loci vary based on short DNA repeats (e.g. ATC**ATC**ATC**ATC**...or GT**GT**GT**GT**GT**GT**GT...) that are highly mutable, and thus these loci tend to harbor higher diversity than other types of markers but also come along with distinct challenges, both practical and analytical. The fact that they only require electrophoresis to genotype an individual would seem to save money, but the effort to score these loci *and* the overall cost of multiple PCR reactions and submissions to a genomics center to be run on a capillary electrophoresis sequencer (often at a cost approaching $1 per sample, once costs of cleanup and electrophoresis are included) makes this of marginal benefit (K. Bobier, pers. comm.), and the cost to develop these relatively taxon-specific markers (doing enough sequencing to find the repeat regions whether via enrichment or filtering, primer design and basic testing - often on the order of thousands of dollars for a new series) has probably put them into the historical dustbin except for cases where they already work on your organism.
 
 So, suffice to say there are *so* many ways to collect data representing genomic variation and you have a few variables to work with. *How much money is available for this work? How many individuals should be genotyped, at how many loci, to satisfy your question?* At this point in the book, you maybe don't know. *How many individuals do you genotype to figure out whether broods of barnacle larvae (or seed pods of tropical trees) are fathered by a single individual, or multiple? How many locations do you need to assay to understand your overall system - and how many individuals from each location?* (not to mention the cost and effort of *finding* those individuals, often a considerable effort itself)
@@ -189,7 +200,4 @@ A few other notes as we talk about the 'natural history' of our markers. It has 
 
 So we are going to treat the natural history of loci, and the methods to obtain the data, as opportunities to consider exceptions to the rule rather than a basis to build upon. The best data means that you have sequence data, and a lot of it - and you know what to do with it. Here we go!
 
-
 </div>
-
-
